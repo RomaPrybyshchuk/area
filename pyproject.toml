@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "area"
+version = "0.1.0"
+description = "Area for search projects"
+authors = ["romanprybyshchuk"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+Django = "^4.0.5"
+psycopg2-binary = "^2.9.3"
+djangorestframework = "^3.13.1"
+Pillow = "^9.1.1"
+djangorestframework-simplejwt = "4.8.0"
+djoser = "^2.1.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
